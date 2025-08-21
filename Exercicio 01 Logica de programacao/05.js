@@ -1,3 +1,5 @@
+//instalar o pacote ' npm install prompt-sync ' antes de rodar o código
+
 const prompt = require('prompt-sync')();
 
 let valor = parseFloat(prompt("Digite o valor da temperatura:"));
