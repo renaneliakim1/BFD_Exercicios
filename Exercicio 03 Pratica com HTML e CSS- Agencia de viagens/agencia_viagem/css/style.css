@@ -252,6 +252,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 
@@ -261,12 +262,33 @@ main {
 }
 
 .nosso_servicos_subtitulo img {
-    width: 40px;
-    height: 40px;
+/*     width: 40px;
+    height: 40px; */
+    height: 5rem;
+    width: 5rem;
     object-fit: contain;
     display: block;
     margin-bottom: 8px;
 }
+
+.star{
+    width: 5rem;
+}
+
+
+.nosso_servicos_subtitulo_icone{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.nosso_servicos_subtitulo_icone img{
+    height: 5rem;
+    width: 5rem;
+
+}
+
 
 .depoimentos {
     background-image: url('../assets/testemunha-bg.jpg');
